@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
-    "moduleDetection": "force"
+    "moduleDetection": "force",
+    "noImplicitAny": true,
+    "noImplicitReturns": true
   }
 }
