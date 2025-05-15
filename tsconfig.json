@@ -2,6 +2,7 @@
   "compilerOptions": {
     "moduleDetection": "force",
     "noImplicitAny": true,
-    "noImplicitReturns": true
+    "noImplicitReturns": true,
+    "strictNullChecks": true
   }
 }
