@@ -9,8 +9,8 @@ import { User } from "./models";
 // console.log(email);
 
 // type UserKey = "firstName" | "lastName" | "email";
-function getProperty<T>(value: T, key: keyof T) {
+function getProperty<T, Key extends keyof T>(value: T, key: Key): T[Key] {
   return value[key];
 }
 
-console.log(getProperty(publication1, "description"));
+const value = getProperty(publication1, "author");
